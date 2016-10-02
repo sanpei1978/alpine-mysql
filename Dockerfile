@@ -1,5 +1,5 @@
 FROM alpine:3.4
-MAINTAINER WangXian <xian366@126.com>
+MAINTAINER Takuma Yamanaka <archer@sanpeity.com>
 
 WORKDIR /app
 VOLUME /app
