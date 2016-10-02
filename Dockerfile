@@ -5,7 +5,7 @@ WORKDIR /app
 VOLUME /app
 COPY startup.sh /startup.sh
 
-RUN apk add --no-cache mysql mysql-client
+RUN apk add --no-cache mysql
 COPY my.cnf /etc/mysql/my.cnf
 
 EXPOSE 3306
